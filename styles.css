@@ -1,0 +1,368 @@
+body{
+    background-color: rgb(241, 241, 245);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+i{
+  position: relative;  
+}
+
+#navigate{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2% 3% 0 7%;
+}
+@media only screen and(max-width:653px){
+    #navigate{
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
+#navigate #line1{
+    display: flex;
+}
+#navigate #line1 ul{
+    display: flex;
+    list-style-type: none;
+}
+#logo{
+    display: flex;
+}
+#navigate ul li a{
+    padding: 0 0 0 2em;
+    color: black;
+    font-size: .9em;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+#navigate a:hover{
+    color: red;
+}
+
+#navigate #home{
+    color: red;
+
+}
+#navigate #line2{
+    text-align: right;
+    margin-right: 4em;
+    padding-top: .2em;
+    color: rgb(241, 241, 245);
+}
+#navigate button{
+    color: black;
+    background-color: red;
+    font-size: .97em;
+    margin: 0 1em 0 0;
+    padding: .6em 1.5em .6em 1.5em;
+}
+
+#navigate #login{
+    border: none;
+}
+#navigate #sign{
+    border: none;
+    border: 2px solid rgb(241, 241, 245);
+    border-radius: .4em;
+}
+
+#line2 #glass i{
+    position: absolute;
+    font-size: 1.6em;
+    padding-top: .3em;
+    color: black;
+
+}
+.menu{
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 2cm;
+  }
+.menu i{
+    position: absolute;
+    top: 5.4cm;
+    justify-content: space-around;
+}
+.first{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.sec{
+    display: flex;
+}
+.second{
+    
+    background-color: white;
+    width: 15cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    box-shadow: 10px 10px 35px rgb(101, 115, 120);
+   
+}
+.second img{
+    width: 100%;
+}
+.top{
+    position: absolute;
+    
+    left: 20cm;
+}
+.top h3{
+    color: rgb(233, 19, 55);
+}
+.top h1{
+    font-size: 40px;
+}
+.top span{
+    color: rgb(233, 19, 55);
+    text-decoration: none;
+}
+@media only screen and(min-width:500px) and (max-width:1500px){
+    .top{
+         left: 2px;
+       }
+       .top h1{
+        font-size: 20px;
+     }}
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+.select h4{
+    color: rgb(233, 19, 55); 
+}
+.size{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.btn{
+    display: flex;
+    
+}
+.btn button{
+    padding: 12px 15px;
+    border-radius: 5px;
+    
+}
+#btn1{
+    margin-right: 3cm;
+}
+#b{
+    border: 3px solid;
+    color: rgb(233, 19, 55);
+}
+#bb{
+    color:white;
+    font-weight: 800;
+    border: none;
+    background-image:linear-gradient(to right, rgb(235, 10, 164) , rgb(234, 155, 94));
+
+}
+.top h2{
+    color: grey;
+}
+.select h2{
+    color: black;
+}
+.shoes{
+margin-left: 2cm;
+}
+.shoes #nike1{
+    width: 10%;
+}
+.shoes #nike2{
+    position: absolute;
+    top: 24.6cm;
+    left: 9.4cm;
+    width: 12%;
+}
+.shoes #nike3{
+    width: 11%; 
+}
+#similar-h1{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-size: 3em;
+}
+.products-h1{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-size: 3em;
+    
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+@media only screen and (max-width:1440px){
+ .products{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+.shoe1{
+    background-color: white;
+    margin: 5%;
+    padding: 1em;
+    box-shadow: 0 2px 12px 4px rgb(101, 115, 120);
+    border-radius:5px; 
+}
+.shoe1 img{
+    position: relative;
+    width: 100%;
+    right: 1em;
+    top: -.3em;
+}
+.shoe1 .fa-heart{
+    font-size: 1.5em;
+
+}
+.shoe1 h2{
+    padding-top: 1em;
+    font-size: 1.3em;
+
+}
+.shoe1 #bag i{
+    float: right;
+    font-size: 1.3em;
+    bottom: 2em;
+}
+.shoe1 p{
+    font-size: .9em;
+    color: gray;
+}
+
+.shoe1 h3{
+    font-size: 1em;
+}
+
+.shoe1 #star{
+    font-size: .7em;
+    position: absolute;
+    text-align: right !important;
+    padding-bottom: 2em;
+    padding-left: 9em;
+}
+.shoe1 #star i{
+    color: yellow;
+ }
+
+ #footer{
+    margin-top: 2cm;
+    background-color: rgb(233, 19, 55);
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 5% 0 5%;
+}
+@media only screen and (max-width:653px){
+
+    .footer{
+      grid-template-columns: repeat(1,1fr);
+      text-align: center;
+    }
+    #contract{
+        text-align: center;
+    
+        
+    }
+  }
+  #logo2{
+    padding-top: 1em;
+
+}
+
+.footer img{
+    width: 50%;
+}
+#logo2 p{
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+ 
+#company{
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 1.5em;
+    margin-bottom: -.3em;
+}
+#foot #contract{
+    padding-top: .5em;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+#info{
+    text-decoration: none;
+    font-size: .85em;
+   color: white;
+    padding-left: 2em;  
+    line-height: 2em;         
+}
+#contract a:hover{
+    color:rgb(233, 19, 55);
+}
+
+.icons{
+    margin-top: 1.5em;
+}
+
+.icons i{
+    color:black;
+    border: 1px solid white;
+    font-size: 1.4em;
+    padding: .4em;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: .5em;
+    box-shadow: 0 2px 12px 4px #3434343d;
+}
+.icons i:hover{
+    background-color: #FF3D58;
+}
+
+.icons p{
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-left: 1em;
+    padding-top: .5em;  
+}
+.store{
+    margin-left: .8em;
+}
+.icons img{
+    width: 40%;
+}
+
+.icons #apple{
+    padding-bottom: .2em;
+}
+
+#footer #copy{
+    padding-top: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .8em;
+}
